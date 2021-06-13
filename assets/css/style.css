@@ -1,0 +1,53 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+header,
+footer {
+  text-align: center;
+  padding: 70px;
+  height: 150px;
+  background-color: grey;
+}
+main {
+  padding: 30px 0px 0px 50px;
+  background-color: lightgrey;
+}
+.contact-information-list {
+  padding: 10px;
+}
+.contact-information-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contact-information-foto {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.address {
+  list-style-image: url("./../img/address.png");
+}
+.phone {
+  list-style-image: url("./../img/phone.png");
+}
+.email {
+  list-style-image: url("./../img/email.png");
+}
+.hr {
+  margin: 30px 0px;
+}
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+li {
+  margin-left: 20px;
+}
